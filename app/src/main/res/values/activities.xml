@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity">
+        <item>Light 1-3 per week</item>
+        <item>Moderate 5 per week</item>
+        <item>Hardcore 6-7 per week</item>
+    </string-array>
+</resources>

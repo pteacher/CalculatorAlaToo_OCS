@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="hello">Hello World!</string>
+    <string name="label_calories">Age</string>
+    <string name="activity">Activity</string>
+    <string name="calculate">Calculate</string>
+</resources>
