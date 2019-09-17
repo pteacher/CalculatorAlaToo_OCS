@@ -12,8 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:text="TextView"
-        android:textSize="36sp"
+        android:text="@string/label_calories"
+        android:textSize="24sp"
+        android:layout_margin="5pt"
         tools:text="@string/label_calories" />
 
     <EditText
@@ -23,7 +24,8 @@
         android:layout_weight="0"
         android:ems="10"
         android:inputType="number"
-        android:textSize="36sp"
+        android:textSize="24sp"
+        android:layout_margin="5pt"
         tools:text="0" />
 
     <TextView
@@ -31,8 +33,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:text="TextView"
-        android:textSize="36sp"
+        android:text="@string/activity"
+        android:textSize="24sp"
+        android:layout_margin="5pt"
         tools:text="@string/activity" />
 
     <Spinner
@@ -40,6 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
+        android:layout_margin="5pt"
         />
 
     <Button
@@ -47,6 +51,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
+        android:textSize="24sp"
+        android:layout_margin="5pt"
         android:text="@string/calculate" />
 
     <TextView
@@ -55,6 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="0"
         android:text="0"
-        android:textSize="36sp" />
+        android:layout_margin="5pt"
+        android:textSize="24sp" />
 
 </LinearLayout>

@@ -14,7 +14,7 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
     int selectedItem = 1;
-    EditText age = findViewById(R.id.age);
+    EditText age;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
         Button calcButton = findViewById(R.id.calculate);
         final TextView result = findViewById(R.id.result);
+        age = findViewById(R.id.age);
 
         Spinner spinner = (Spinner) findViewById(R.id.spinnerActivity);
-        ArrayAdapter<CharSequence> array = ArrayAdapter.createFromResource(this, R.array.activity, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> array = ArrayAdapter.createFromResource(this, R.array.activity, R.layout.spinner_text);
         array.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(array);
 
